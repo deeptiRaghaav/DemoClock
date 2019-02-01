@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201084877F396AC213DE60B4 /* Pods_DemoClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6BAD7EB697877F0621C018 /* Pods_DemoClock.framework */; };
+		AB1B00A521CCEA7B00406843 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B00A321CCEA7B00406843 /* UIView.swift */; };
+		AB1B00A621CCEA7B00406843 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B00A421CCEA7B00406843 /* UIViewControllerExtension.swift */; };
+		AB1B00AB21CCEBB200406843 /* CommonMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B00AA21CCEBB200406843 /* CommonMethod.swift */; };
+		AB1B00B021CCECA000406843 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B00AF21CCECA000406843 /* CalendarVC.swift */; };
+		AB1B00B221CCECC400406843 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B00B121CCECC400406843 /* SecondVC.swift */; };
+		AB1B00B421CCF8A600406843 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1B00B321CCF8A600406843 /* String.swift */; };
 		AB4FC08121C8F8B700893AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FC08021C8F8B700893AAC /* AppDelegate.swift */; };
 		AB4FC08321C8F8B700893AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FC08221C8F8B700893AAC /* ViewController.swift */; };
 		AB4FC08621C8F8B700893AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4FC08421C8F8B700893AAC /* Main.storyboard */; };
 		AB4FC08921C8F8B800893AAC /* DemoClock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB4FC08721C8F8B800893AAC /* DemoClock.xcdatamodeld */; };
 		AB4FC08B21C8F8B900893AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4FC08A21C8F8B900893AAC /* Assets.xcassets */; };
 		AB4FC08E21C8F8B900893AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4FC08C21C8F8B900893AAC /* LaunchScreen.storyboard */; };
+		AB4FC09821C9044D00893AAC /* FSCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4FC09721C9044D00893AAC /* FSCalendar.framework */; };
+		AB4FC0B921C909BB00893AAC /* icons8-calendar_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4FC09521C8FF5300893AAC /* icons8-calendar_filled.png */; };
+		AB554A0821CBB8A1003D81F3 /* DesignManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB554A0721CBB8A1003D81F3 /* DesignManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A6BAD7EB697877F0621C018 /* Pods_DemoClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0521832D65F8C7119BBCB9 /* Pods-DemoClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoClock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoClock/Pods-DemoClock.debug.xcconfig"; sourceTree = "<group>"; };
+		8612494401190747857C8724 /* Pods-DemoClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoClock.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoClock/Pods-DemoClock.release.xcconfig"; sourceTree = "<group>"; };
+		AB1B00A321CCEA7B00406843 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		AB1B00A421CCEA7B00406843 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		AB1B00AA21CCEBB200406843 /* CommonMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMethod.swift; sourceTree = "<group>"; };
+		AB1B00AF21CCECA000406843 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		AB1B00B121CCECC400406843 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		AB1B00B321CCF8A600406843 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		AB4FC07D21C8F8B700893AAC /* DemoClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4FC08021C8F8B700893AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB4FC08221C8F8B700893AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +43,10 @@
 		AB4FC08A21C8F8B900893AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB4FC08D21C8F8B900893AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB4FC08F21C8F8B900893AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB4FC09521C8FF5300893AAC /* icons8-calendar_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-calendar_filled.png"; sourceTree = "<group>"; };
+		AB4FC09721C9044D00893AAC /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB554A0721CBB8A1003D81F3 /* DesignManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignManager.swift; sourceTree = "<group>"; };
+		AB7E04A721CA27D40025CC97 /* DemoClock-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoClock-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4FC09821C9044D00893AAC /* FSCalendar.framework in Frameworks */,
+				201084877F396AC213DE60B4 /* Pods_DemoClock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40B7718B0883A54B7214617C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B0521832D65F8C7119BBCB9 /* Pods-DemoClock.debug.xcconfig */,
+				8612494401190747857C8724 /* Pods-DemoClock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB1B00A221CCEA4F00406843 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AB1B00A321CCEA7B00406843 /* UIView.swift */,
+				AB1B00A421CCEA7B00406843 /* UIViewControllerExtension.swift */,
+				AB554A0721CBB8A1003D81F3 /* DesignManager.swift */,
+				AB1B00AA21CCEBB200406843 /* CommonMethod.swift */,
+				AB1B00B321CCF8A600406843 /* String.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		AB4FC07421C8F8B700893AAC = {
 			isa = PBXGroup;
 			children = (
 				AB4FC07F21C8F8B700893AAC /* DemoClock */,
 				AB4FC07E21C8F8B700893AAC /* Products */,
+				40B7718B0883A54B7214617C /* Pods */,
+				F5D61A1E9C975624BECAD6FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +104,29 @@
 		AB4FC07F21C8F8B700893AAC /* DemoClock */ = {
 			isa = PBXGroup;
 			children = (
+				AB1B00A221CCEA4F00406843 /* Helper */,
 				AB4FC08021C8F8B700893AAC /* AppDelegate.swift */,
 				AB4FC08221C8F8B700893AAC /* ViewController.swift */,
+				AB1B00AF21CCECA000406843 /* CalendarVC.swift */,
+				AB1B00B121CCECC400406843 /* SecondVC.swift */,
+				AB4FC09521C8FF5300893AAC /* icons8-calendar_filled.png */,
 				AB4FC08421C8F8B700893AAC /* Main.storyboard */,
 				AB4FC08A21C8F8B900893AAC /* Assets.xcassets */,
 				AB4FC08C21C8F8B900893AAC /* LaunchScreen.storyboard */,
 				AB4FC08F21C8F8B900893AAC /* Info.plist */,
 				AB4FC08721C8F8B800893AAC /* DemoClock.xcdatamodeld */,
+				AB7E04A721CA27D40025CC97 /* DemoClock-Bridging-Header.h */,
 			);
 			path = DemoClock;
+			sourceTree = "<group>";
+		};
+		F5D61A1E9C975624BECAD6FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB4FC09721C9044D00893AAC /* FSCalendar.framework */,
+				1A6BAD7EB697877F0621C018 /* Pods_DemoClock.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB4FC09221C8F8B900893AAC /* Build configuration list for PBXNativeTarget "DemoClock" */;
 			buildPhases = (
+				759EE2B827323DFC4004B21B /* [CP] Check Pods Manifest.lock */,
 				AB4FC07921C8F8B700893AAC /* Sources */,
 				AB4FC07A21C8F8B700893AAC /* Frameworks */,
 				AB4FC07B21C8F8B700893AAC /* Resources */,
+				C557598F125043E33DB0906A /* [CP] Embed Pods Frameworks */,
+				AB8E1B8321CCE53A005989FF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -99,6 +164,7 @@
 				TargetAttributes = {
 					AB4FC07C21C8F8B700893AAC = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -125,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4FC0B921C909BB00893AAC /* icons8-calendar_filled.png in Resources */,
 				AB4FC08E21C8F8B900893AAC /* LaunchScreen.storyboard in Resources */,
 				AB4FC08B21C8F8B900893AAC /* Assets.xcassets in Resources */,
 				AB4FC08621C8F8B700893AAC /* Main.storyboard in Resources */,
@@ -133,14 +200,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		759EE2B827323DFC4004B21B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoClock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB8E1B8321CCE53A005989FF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		C557598F125043E33DB0906A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoClock/Pods-DemoClock-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoClock/Pods-DemoClock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB4FC07921C8F8B700893AAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1B00B021CCECA000406843 /* CalendarVC.swift in Sources */,
+				AB1B00A521CCEA7B00406843 /* UIView.swift in Sources */,
 				AB4FC08321C8F8B700893AAC /* ViewController.swift in Sources */,
+				AB1B00A621CCEA7B00406843 /* UIViewControllerExtension.swift in Sources */,
 				AB4FC08121C8F8B700893AAC /* AppDelegate.swift in Sources */,
 				AB4FC08921C8F8B800893AAC /* DemoClock.xcdatamodeld in Sources */,
+				AB1B00B421CCF8A600406843 /* String.swift in Sources */,
+				AB1B00B221CCECC400406843 /* SecondVC.swift in Sources */,
+				AB554A0821CBB8A1003D81F3 /* DesignManager.swift in Sources */,
+				AB1B00AB21CCEBB200406843 /* CommonMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,16 +414,22 @@
 		};
 		AB4FC09321C8F8B900893AAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0521832D65F8C7119BBCB9 /* Pods-DemoClock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G86ZNWZN26;
 				INFOPLIST_FILE = DemoClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.DemoClock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riskassessor.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoClock/DemoClock-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,16 +437,21 @@
 		};
 		AB4FC09421C8F8B900893AAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8612494401190747857C8724 /* Pods-DemoClock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G86ZNWZN26;
 				INFOPLIST_FILE = DemoClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.DemoClock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riskassessor.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoClock/DemoClock-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
